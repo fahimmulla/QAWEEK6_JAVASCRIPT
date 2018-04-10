@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+    <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
     <title>Welcome to my Website</title>
     <!--<script>window.alert("Welcome to my Website");</script>-->
+    <script src="calscript.js"></script>
 </head>
 <br>
 
@@ -12,7 +13,7 @@
 <div class="mainContent">
     <div class="navigation">
         <ul>
-            <li><a id="home" href= index.html>Home </a></li>
+            <li><a id="home" href=index.html>Home </a></li>
             <li><a href="about_me.html"> About Me </a></li>
             <li><a href="project_list.html">Project List </a></li>
             <li><a href="softwares.html">Softwares</a></li>
@@ -37,16 +38,16 @@
         <input type="name"
                placeholder="name..."
                alt="Enter Name"
-               required="required" />
+               required="required"/>
         <input type="Email"
                placeholder="email..."
                alt="Enter Email"
-               required="required" />
+               required="required"/>
         <input type="password"
                placeholder="password..."
                alt="Enter Password"
-               required="required" />
-        <button type="submit" onclick="z" >Sign In
+               required="required"/>
+        <button type="submit" onclick="z">Sign In
 
         </button>
     </div>
@@ -59,11 +60,10 @@
 <!--<p id = "Mytest" ></p>-->
 
 <!--<script>-->
-    <!--var x = 5;-->
-    <!--var y = 6;-->
-    <!--var z = x + y;-->
-    <!--document.getElementById("Mytest").innerHTML = "The value of z is: " + z;-->
-
+<!--var x = 5;-->
+<!--var y = 6;-->
+<!--var z = x + y;-->
+<!--document.getElementById("Mytest").innerHTML = "The value of z is: " + z;-->
 
 
 <!--</script>-->
@@ -71,21 +71,19 @@
 <!--<script>window.alert("The value of z :" + z);</script>-->
 
 
-
-
 <!--</br>-->
 
 <!--<center>-->
 
-    <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-    <!--&lt;!&ndash; kolkotob728 x 90 &ndash;&gt;-->
-    <!--<ins class="adsbygoogle"-->
-         <!--style="display:inline-block;width:728px;height:90px"-->
-         <!--data-ad-client="ca-pub-9935930967042478"-->
-         <!--data-ad-slot="4766287949"></ins>-->
-    <!--<script>-->
-        <!--(adsbygoogle = window.adsbygoogle || []).push({});-->
-    <!--</script>-->
+<!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
+<!--&lt;!&ndash; kolkotob728 x 90 &ndash;&gt;-->
+<!--<ins class="adsbygoogle"-->
+<!--style="display:inline-block;width:728px;height:90px"-->
+<!--data-ad-client="ca-pub-9935930967042478"-->
+<!--data-ad-slot="4766287949"></ins>-->
+<!--<script>-->
+<!--(adsbygoogle = window.adsbygoogle || []).push({});-->
+<!--</script>-->
 <!--</center>-->
 
 <!--</br>-->
@@ -93,11 +91,11 @@
 
 <!--<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-525dedf75e6f370e"></script>-->
 <!--<script type="text/javascript"> var addthis_product = 'blg-1.0'; addthis.layers({ 'theme' : 'dark',-->
-    <!--'share' : { 'position' :-->
-            <!--'right',-->
-        <!--'numPreferredServices' : 6-->
-    <!--}, 'follow' : {-->
-    <!--} }); </script>-->
+<!--'share' : { 'position' :-->
+<!--'right',-->
+<!--'numPreferredServices' : 6-->
+<!--}, 'follow' : {-->
+<!--} }); </script>-->
 
 <!--<canvas></canvas>-->
 
@@ -108,10 +106,13 @@
 <h1> Data and time </h1>
 <table border="5" bordercolor="blue" align="left">
     <tr>
-        <th> <button type="button" class="center" align="center" border="5" bordercolor="blue" align="center"
-                     onclick="document.getElementById('demo').innerHTML = Date()">
-            Click me to display Date and Time.</button> </th>
-        <th> <p id="demo" ></p> </th>
+        <th>
+            <button type="button" class="center" align="center" border="5" bordercolor="blue" align="center"
+                    onclick="document.getElementById('demo').innerHTML = Date()">
+                Click me to display Date and Time.
+            </button>
+        </th>
+        <th><p id="demo"></p></th>
 
     </tr>
     <tbody>
@@ -119,19 +120,24 @@
 </table>
 
 <!--<div style="visibility:hidden">-->
-    <!--<audio autoplay loop>-->
-        <!--<source src="audio/0237067387.mp3">-->
-    <!--</audio>-->
+<!--<audio autoplay loop>-->
+<!--<source src="audio/0237067387.mp3">-->
+<!--</audio>-->
 <!--</div>-->
 
 
 </br>
 </br>
 
+<form name="codingexcercise2" method="get">
+    Value 1<input type="text" id="number1"> <br> <br>
+    Value 2<input type="text" id="number2"> <br> <br>
+    <input type="button" onclick="add()" value="Add">
+
+</form>
 
 
-
-    </body>
+</body>
 
 </html>
 
