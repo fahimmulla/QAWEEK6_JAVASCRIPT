@@ -4,7 +4,7 @@ html {
 
 
 body {
-    background-color: deepskyblue;
+    background-color: mintcream;
     width:80%;
     margin-left: auto;
     margin-right: auto ;
@@ -12,6 +12,7 @@ body {
 
 .mainContent {
     padding: 0px 5px 10px 5px;
+    text-align-all: center;
 }
 
 .navigation {
@@ -37,6 +38,26 @@ body {
     color: white;
 }
 
+/*ul {*/
+/*list-style-type: none;*/
+/*margin: 0;*/
+/*padding: 0;*/
+/*overflow: hidden;*/
+/*background-color: #333;*/
+/*}*/
+/*li {*/
+/*float: left;*/
+/*}*/
+
+/*li a {*/
+/*display: block;*/
+/*color: black;*/
+/*text-align: center;*/
+/*padding: 14px 16px;*/
+/*text-decoration: none;*/
+/*}*/
+
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -44,18 +65,22 @@ ul {
     overflow: hidden;
     background-color: #333;
 }
+
 li {
     float: left;
 }
 
 li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
+li a:hover {
+    background-color: purple;
+}
 img.center {
     display: block;
     margin-left: auto;
@@ -66,7 +91,7 @@ img.center {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     line-height: 40px;
-    height: 40px;
+    height: 10px;
     border-bottom: 1px solid #888;
 }
 
@@ -114,3 +139,23 @@ img {
     display: block;
     margin: 0 auto;
 }
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: black;
+    color: white;
+}
+
+
+
